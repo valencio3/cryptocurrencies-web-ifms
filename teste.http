@@ -1,0 +1,9 @@
+get https://exemplo-autenticaca-react-default-rtdb.firebaseio.com/user.json
+
+###
+post https://exemplo-autenticaca-react-default-rtdb.firebaseio.com/user/email.json
+    content-type: application/json
+
+{
+    "brl":"brl"
+}
